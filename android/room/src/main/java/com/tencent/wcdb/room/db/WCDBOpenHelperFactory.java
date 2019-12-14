@@ -20,7 +20,7 @@
 
 package com.tencent.wcdb.room.db;
 
-import android.arch.persistence.db.SupportSQLiteOpenHelper;
+import androidx.sqlite.db.SupportSQLiteOpenHelper;
 
 import com.tencent.wcdb.database.SQLiteCipherSpec;
 

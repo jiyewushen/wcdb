@@ -22,8 +22,8 @@ package com.tencent.wcdb.sample.encryptdb;
 
 import android.database.Cursor;
 import android.os.AsyncTask;
-import android.support.v4.widget.SimpleCursorAdapter;
-import android.support.v7.app.AppCompatActivity;
+import androidx.cursoradapter.widget.SimpleCursorAdapter;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;

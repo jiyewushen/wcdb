@@ -22,7 +22,7 @@ package com.tencent.wcdb.benchmark.single;
 
 import android.content.Context;
 import android.database.Cursor;
-import android.support.test.InstrumentationRegistry;
+import androidx.test.platform.app.InstrumentationRegistry;
 import android.util.Log;
 
 import junit.framework.Assert;

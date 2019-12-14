@@ -21,7 +21,7 @@
 package com.tencent.wcdb.benchmark.single;
 
 import android.database.Cursor;
-import android.support.test.InstrumentationRegistry;
+import androidx.test.platform.app.InstrumentationRegistry;
 
 import net.sqlcipher.DatabaseUtils;
 import net.sqlcipher.database.SQLiteDatabase;

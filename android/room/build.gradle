@@ -13,7 +13,7 @@ android {
         versionCode 1
         versionName version
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
     }
     buildTypes {
@@ -27,8 +27,8 @@ android {
 dependencies {
     api project(':wcdb')
 
-    api 'android.arch.persistence.room:runtime:1.1.1'
-    annotationProcessor 'android.arch.persistence.room:compiler:1.1.1'
+    api 'androidx.room:room-runtime:2.2.2'
+    annotationProcessor 'androidx.room:room-compiler:2.2.2'
 }
 
 wechatPublish {

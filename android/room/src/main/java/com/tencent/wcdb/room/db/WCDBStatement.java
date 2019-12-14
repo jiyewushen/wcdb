@@ -16,7 +16,7 @@
 
 package com.tencent.wcdb.room.db;
 
-import android.arch.persistence.db.SupportSQLiteStatement;
+import androidx.sqlite.db.SupportSQLiteStatement;
 
 import com.tencent.wcdb.database.SQLiteStatement;
 

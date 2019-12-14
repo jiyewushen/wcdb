@@ -16,8 +16,8 @@
 
 package com.tencent.wcdb.room.db;
 
-import android.arch.persistence.db.SupportSQLiteDatabase;
-import android.arch.persistence.db.SupportSQLiteOpenHelper;
+import androidx.sqlite.db.SupportSQLiteDatabase;
+import androidx.sqlite.db.SupportSQLiteOpenHelper;
 import android.content.Context;
 
 import com.tencent.wcdb.DatabaseErrorHandler;

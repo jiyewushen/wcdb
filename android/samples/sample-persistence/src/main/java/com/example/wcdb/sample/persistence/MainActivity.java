@@ -20,11 +20,11 @@
 
 package com.example.wcdb.sample.persistence;
 
-import android.arch.persistence.db.SupportSQLiteDatabase;
-import android.arch.persistence.room.Room;
-import android.arch.persistence.room.RoomDatabase;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
+import androidx.sqlite.db.SupportSQLiteDatabase;
+import androidx.room.Room;
+import androidx.room.RoomDatabase;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.wcdb.sample.persistence.entity.AppDatabase;
